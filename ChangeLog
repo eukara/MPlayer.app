@@ -1,0 +1,8 @@
+2005-02-23  Fabien VALLON  <fabien@sonappart.net>
+
+	* Add ChangeLog
+	* GNUmakefile : new makefile
+	* Controllers/GNUmakefile : new makefile 
+	* Classes/GNUmakefile : new makefile
+	* sync with mplayerOSX CVS 
+

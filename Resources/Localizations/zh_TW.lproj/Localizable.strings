@@ -1,0 +1,155 @@
+/* Localizable strings for MPlayer OS X */
+
+/* Traditional Chinese version Miyang (http://miyang.netfirms.com/) */
+
+/* Menu Bar */
+/* Application menu */
+"About MPlayer OS X" = "關於 MPlayer OS X";
+"Preferences..." = "偏好設定⋯";
+"Services" = "服務";
+"Hide MPlayer OS X" = "隱藏 MPlayer OS X";
+"Hide Others" = "隱藏其他";
+"Show All" = "顯示全部";
+"Quit MPlayer OS X" = "結束 MPlayer OS X";
+
+/* File menu */
+"File" = "檔案";
+	"Open..." = "開啟⋯";
+	"Open Location..." = "開啟位址⋯";
+	"Add to Playlist..." = "增加到播放清單⋯";
+
+/* Edit menu */
+"Edit" = "編輯";
+	"Undo" = "還原";
+	"Redo" = "重作";
+	"Cut" = "剪下";
+	"Copy" = "拷貝";
+	"Paste" = "貼上";
+	"Clear" = "刪除";
+	"Select All" = "全選";
+
+/* Control menu */
+"Controls" = "控制";
+	"Play" = "播放";
+		"Pause" = "暫停";
+	"Stop" = "停止";
+	"Seek Back" = "倒帶";
+	"Seek Forward" = "快轉";
+	"Full Screen" = "全螢幕";
+	"Statistics..." = "統計⋯";
+	"Info..." = "簡介⋯";
+
+/* Window menu */
+"Window" = "視窗";
+	"Minimize" = "將視窗縮到最小";
+	"Bring All to Front" = "將此程式所有視窗移至最前";
+
+/* Help menu */
+"Help" = "輔助說明";
+	"MPlayer OS X Help" = "MPlayer OS X 輔助說明";
+
+
+
+/* User interface */
+/* Universal strings */
+"default" = "預設";
+"Cancel" = "取消";
+"OK" = "確定";
+
+/* Main window */
+	/* ToolTips */
+	"Play / pause" = "播放／暫停";
+	"Seek back for 10 seconds" = "倒帶 10 秒鐘";
+	"Seek forward for 10 seconds" = "快轉 10 秒鐘";
+	"Stop playing movie" = "停止播放";
+	"Set audio volume" = "調整音量";
+	"Open info panel for selected item" = "開啟所選項目的簡介面板";
+	"Play mode: Single" = "播放模式：單一播放";
+	"Play mode: Continous" = "播放模式：連續播放";
+	"Play mode: Repeating" = "播放模式：重複播放";
+	/* Playlist table column headers */
+	"Movie" = "影片";
+	"Time" = "長度";
+
+/* Preferences panel */
+"Preferences" = "偏好設定";
+	"General settings:" = "一般設定：";
+		"Small font in playlist" = "用較小的字體來顯示播放清單";
+		"Remember last played movie and position on quit" = "記錄播放清單";
+	"Video settings:" = "影像設定：";
+		"Size:" = "影片大小：";
+			"normal" = "原始大小";
+			"half" = "一半大小";
+			"double" = "兩倍大小";
+			"fit screen" = "符合螢幕";
+			"fit width..." = "設定寬度⋯";
+		"Aspect ratio:" = "螢幕比例：";
+		"Play in fullscreen by default" = "使用全螢幕播放";
+		"Drop frames on slower machines" = "在效能較低的機器上減少格率來換取效能";
+	"Subtitles settings:" = "字幕設定：";
+		"Default encoding:" = "預設編碼：";
+		"Font:" = "字體：";
+			"none" = "無";
+		"Size:" = "字體大小：";
+			"small" = "較小";
+			"normal" = "標準";
+			"larger" = "較大";
+			"large" = "最大";
+	"Miscellaneous settings:" = "其他設定：";
+		"Use cache (slow media)" = "使用快取（讀取較慢的媒體時）";
+		"Additional parameters: (edit only if you know what you are doing)" = "額外參數：（請確定你能夠了解你加進去的參數作用）";
+
+/* Info panel */
+"Movie Info" = "影片簡介";
+	"Title:" = "標題：";
+	/* Settings tab */
+	"Settings" = "設定";
+		"Force rebuilding index (allow seeking in broken files)" = "強迫重建影片索引（可以用來嘗試播放損毀的影片）";
+		"Subtitles file:" = "字幕檔：";
+		"Subtitles encoding:" = "字幕編碼：";
+		"Audio file:" = "聲音檔：";
+		"Remove" = "移除";
+		"Choose..." = "選取⋯";
+	/* Info tab*/
+	"Info" = "簡介";
+		"Movie file:" = "檔案：";
+		"File format:" = "檔案格式：";
+		"Video format:" = "影片格式：";
+		"Audio format:" = "聲音格式：";
+		"Length:" = "影片長度：";
+	
+/* Statistics Window */
+"Movie Statistics" = "影片統計";
+	/* Titles */
+	"Player status:" = "撥放器狀態：";
+	"CPU usage:" = "CPU 使用狀態：";
+	"Cache usage:" = "快取使用狀態：";
+	"AV sync difference:" = "影因同步差異比：";
+	"Dropped frames:" = "減少的格率：";
+	"Postprocessing:" = "後處理：";
+	/* Values */
+	"N/A" = "未知";
+	"Playing" = "播放中";
+	"Paused" = "暫停";
+	"Indexing" = "索引中";
+	"Opening" = "開啟中";
+	"Buffering" = "緩衝中";
+	
+/* Open Location panel */
+"Open Location" = "開啟位址";
+	"URL:" = "位址：";
+	
+/* Loading Files panel */
+"Loadig Files" = "開啟檔案";
+
+/* Note, Caution and Alert Dialogs */
+"Error" = "錯誤";
+"Note" = "提示";
+"Caution" = "警告";
+"Application %@ could not be found." = "無法找到應用程式 '%@' 。";
+"File %@ could not be found." = "無法找到 '%@' 這個檔案。";
+"Preferences could not be saved.\nQuit anyway?" = "偏好設定無法儲存！\n你確定要結束？"; 
+"Do you want to restart playback?" = "你確定要重新開始播放？";
+	"Some of the changes requires player to restart playback that might take a while." = "某些設定上的變更需要重新開始播放才會生效。";
+	"Later" = "稍後再說";
+"The URL is not in correct format or cannot be handled by this application." = "這個位址的串流格式錯誤或是無法被 MPlayer OS X 所辨識。";

@@ -1,0 +1,153 @@
+/* Localizable strings for MPlayer OS X */
+
+/* Menu Bar */
+/* Application menu */
+"About MPlayer OS X" = "O aplikaci MPlayer OS X";
+"Preferences..." = "Předvolby...";
+"Services" = "Služby";
+"Hide MPlayer OS X" = "Skrýt MPlayer OS X";
+"Hide Others" = "Skrýt ostatní";
+"Show All" = "Ukázat vše";
+"Quit MPlayer OS X" = "Ukončit MPlayer OS X";
+
+/* File menu */
+"File" = "Soubor";
+	"Open..." = "Otevřít...";
+	"Open Location..." = "Otevřít ze sítě...";
+	"Add to Playlist..." = "Přidat do seznamu...";
+
+/* Edit menu */
+"Edit" = "Úpravy";
+	"Undo" = "Zpět";
+	"Redo" = "Znovu";
+	"Cut" = "Vyjmout";
+	"Copy" = "Kopírovat";
+	"Paste" = "Vložit";
+	"Clear" = "Smazat";
+	"Select All" = "Vybrat vše";
+
+/* Control menu */
+"Controls" = "Ovládání";
+	"Play" = "Hrát";
+		"Pause" = "Zastavit";
+	"Stop" = "Ukončit";
+	"Seek Back" = "Posunout zpět";
+	"Seek Forward" = "Posunout dopředu";
+	"Full Screen" = "Na celou obrazovku";
+	"Statistics..." = "Statistika...";
+	"Info..." = "Informace...";
+
+/* Window menu */
+"Window" = "Okno";
+	"Minimize" = "Zmenšit";
+	"Bring All to Front" = "Dát vše do popředí"; // opravit
+
+/* Help menu */
+"Help" = "Rady";
+	"MPlayer OS X Help" = "Rady pro MPlayer OS X";
+
+
+
+/* User interface */
+/* Universal strings */
+"none" = "není";
+"default" = "výchozí";
+"Cancel" = "Zrušit";
+"OK" = "Budiž";
+
+/* Main window */
+	/* ToolTips */
+	"Play / pause" = "Spustí / zastaví přehrávání";
+	"Seek back for 10 seconds" = "Posun zpět o 10 vteřin";
+	"Seek forward for 10 seconds" = "Posun vpřed o 10 vteřin";
+	"Stop playing movie" = "Ukončí přehrávání";
+	"Set audio volume" = "Nastavení hlasitosti zvuku";
+	"Open info panel for selected item" = "Zobrazí informace o vybrané položce";
+	"Play mode: Single" = "Mód přehrávání: po jedné";
+	"Play mode: Continous" = "Mód přehrávání: do konce";
+	"Play mode: Repeating" = "Mód přehrávání: opakování";
+	/* Playlist table column headers */
+	"Movie" = "Film";
+	"Time" = "Čas";
+
+/* Preferences panel */
+"Preferences" = "Předvolby";
+	"General settings:" = "Obecné nastavení:";
+		"Small font in playlist" = "Menší písmo v playlistu";
+		"Remember last played movie and position on quit" = "Pamatovat si naposledny hraný film a pozici před ukončením";
+	"Video settings:" = "Nastavení videa:";
+		"Size:" = "Velikost:";
+			"normal" = "normální";
+			"half" = "poloviční";
+			"double" = "dvojnásobná";
+			"fit screen" = "podle obrazovky";
+			"fit width..." = "na šířku...";
+		"Aspect ratio:" = "Poměr stran:";
+		"Play in fullscreen by default" = "Přehrávej na celé obrazovce";
+		"Drop frames on slower machines" = "Vypouštět snímky na pomalejších strojích";
+	"Subtitles settings:" = "Nastavení titulků:";
+		"Font:" = "Písmo:";
+		"Default encoding:" = "Výchozí kódování:";
+		"Size:" = "Velikost:";
+			"small" = "malá";
+			"normal" = "normální";
+			"larger" = "vetší";
+			"large" = "velká";
+	"Miscellaneous settings:" = "Ostatní nastavení:";
+		"Use cache (slow media)" = "Použít mezipaměť";
+		"Additional parameters: (edit only if you know what you are doing)" = "Další parametry: (použij jen pokud víš co děláš)";
+
+/* Info panel */
+"Movie Info" = "Informace o filmu";
+	"Title:" = "Název:";
+	/* Settings tab */
+	"Settings" = "Nastavení";
+		"Force rebuilding index (allow seeking in broken files)" = "Přestavět index (umožní vyhledávání v poškozených souborech)";
+		"Subtitles file:" = "Soubor titulků:";
+		"Subtitles encoding:" = "Kódování titulků:";
+		"Audio file:" = "Soubor zvuku:";
+		"Remove" = "Odstraňit";
+		"Choose..." = "Vybrat...";
+	/* Info tab*/
+	"Info" = "Info";
+		"Movie file:" = "Soubor filmu:";
+		"File format:" = "Formát souboru:";
+		"Video format:" = "Formát videa:";
+		"Audio format:" = "Formát audia:";
+		"Length:" = "Délka:";
+	
+/* Statistics Window */
+"Movie Statistics" = "Statistika přehrávání";
+	/* Titles */
+	"Player status:" = "Stav přehrávače:";
+	"CPU usage:" = "Využití CPU:";
+	"Cache usage:" = "Využití paměti:";
+	"AV sync difference:" = "Synchronizační odchylka:";
+	"Dropped frames:" = "Zahozené snímky:";
+	"Postprocessing:" = "Postprocessing:";
+	/* Values */
+	"N/A" = "není dostupné";
+	"Playing" = "přehrává se";
+	"Paused" = "pozastaveno";
+	"Indexing" = "indexuje se";
+	"Opening" = "otvírá se";
+	"Buffering" = "načítá se do paměti";
+	
+/* Open Location panel */
+"Open Location" = "Otevřít ze sítě";
+	"URL:" = "URL:";
+	
+/* Loading Files panel */
+"Loadig Files" = "Načítání souborů";
+
+/* Note, Caution and Alert Dialogs */
+"Error" = "Chyba";
+"Note" = "Poznámka";
+"Caution" = "Upozornění";
+"Application %@ could not be found." = "Aplikaci %@ nelze nalézt.";
+"File %@ could not be found." = "Soubor %@ nelze nalézt.";
+"Preferences could not be saved.\nQuit anyway?" = "Předvolby nelze uložit.\nChcete přesto ukončit aplikaci?"; 
+"Do you want to restart playback?" = "Chcete přehrávání spustit znovu?";
+	"Some of the changes requires player to restart playback that might take a while." = "Některé z nových nastavení vyžadují nové spuštění přehrávání, což může chvíli trvat.";
+	"Later" = "Později";
+"The URL is not in correct format or cannot be handled by this application." = "Adresa není ve správném formátu nebo ji tato aplikace nepodporuje.";

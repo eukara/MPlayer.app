@@ -1,0 +1,58 @@
+{
+    ApplicationDescription = "GNUstep Video Player";
+    ApplicationIcon = MPlayer;
+    ApplicationName = MPlayer;
+    ApplicationRelease = "0.5";
+    NSIcon="MPlayerIcon.tiff";	
+    ApplicationURL = "none";
+    Authors = (
+		"Marco Hladik",
+		"plop"
+    );
+    Copyright = "Copyright \U00a9 2003-2019";
+    CopyrightDescription = "Released under the GNU GPL2.";
+    FullVersionID = "0.5";
+    NSRole = "Viewer";
+    NSTypes = (
+    	{
+		NSUnixExtensions = ("avi");
+		NSIcon = "FileIcon_avi.tiff";
+	},
+    	{
+		NSUnixExtensions = ("wmv");
+		NSIcon = "FileIcon_wmv.tiff";
+	},
+    	{
+		NSUnixExtensions = ("mp4");
+		NSIcon = "FileIcon_mp4.tiff";
+	},
+    	{
+		NSUnixExtensions = ("m4v");
+		NSIcon = "FileIcon_m4v.tiff";
+	},
+    	{
+		NSUnixExtensions = ("mkv");
+		NSIcon = "FileIcon_mkv.tiff";
+	},
+    	{
+		NSUnixExtensions = ("mpg");
+		NSIcon = "FileIcon_mpg.tiff";
+	},
+    	{
+		NSUnixExtensions = ("ogv");
+		NSIcon = "FileIcon_ogc.tiff";
+	},
+    	{
+		NSUnixExtensions = ("webm");
+		NSIcon = "FileIcon_webm.tiff";
+	},
+    	{
+		NSUnixExtensions = ("mov");
+		NSIcon = "FileIcon_mov.tiff";
+	},
+    	{
+		NSUnixExtensions = ("iso");
+		NSIcon = "FileIcon_iso.tiff";
+	}
+    );
+}

@@ -1,0 +1,153 @@
+/* Localizable strings for MPlayer OS X */
+
+/* french version by taz@macbidouille.com */
+
+/* Menu Bar */
+/* Application menu */
+"About MPlayer OS X" = "MPlayer OS X について";
+"Preferences..." = "環境設定...";
+"Services" = "サービス";
+"Hide MPlayer OS X" = "MPlayer OS X を隠す";
+"Hide Others" = "ほかを隠す";
+"Show All" = "すべてを表示";
+"Quit MPlayer OS X" = "MPlayer OS X を終了";
+
+/* File menu */
+"File" = "ファイル";
+	"Open..." = "開く...";
+	"Open Location..." = "URLを開く...";
+	"Add to Playlist..." = "プレイリストに追加...";
+
+/* Edit menu */
+"Edit" = "編集";
+	"Undo" = "取り消し";
+	"Redo" = "やり直し";
+	"Cut" = "カット";
+	"Copy" = "コピー";
+	"Paste" = "ペースト";
+	"Clear" = "消去";
+	"Select All" = "すべてを選択";
+
+/* Control menu */
+"Controls" = "操作";
+	"Play" = "再生";
+		"Pause" = "一時停止";
+	"Stop" = "停止";
+	"Seek Back" = "巻き戻し";
+	"Seek Forward" = "早送り";
+	"Full Screen" = "フルスクリーン";
+	"Statistics..." = "統計情報...";
+	"Info..." = "情報を表示...";
+
+/* Window menu */
+"Window" = "ウィンドウ";
+	"Minimize" = "ウィンドウをしまう";
+	"Bring All to Front" = "すべてを手前に移動";
+
+/* Help menu */
+"Help" = "ヘルプ";
+	"MPlayer OS X Help" = "MPlayer OS X ヘルプ";
+
+
+
+/* User interface */
+/* Universal strings */
+"default" = "デフォルト";
+"Cancel" = "キャンセル";
+"OK" = "OK";
+
+/* Main window */
+	/* ToolTips */
+	"Play / pause" = "再生／一時停止";
+	"Seek back for 10 seconds" = "１０秒巻き戻す";
+	"Seek forward for 10 seconds" = "１０秒早送りする";
+	"Stop playing movie" = "再生を停止する";
+	"Set audio volume" = "音量を設定する";
+	"Open info panel for selected item" = "選択した項目の情報を表示";
+	"Play mode: Single" = "再生モード：１つだけ再生";
+	"Play mode: Continous" = "再生モード：連続再生";
+	"Play mode: Repeating" = "再生モード：くり返し再生";
+	/* Playlist table column headers */
+	"Movie" = "ファイル";
+	"Time" = "継続時間";
+
+/* Preferences panel */
+"Preferences" = "環境設定";
+	"General settings:" = "一般設定：";
+		"Small font in playlist" = "プレイリストに小さいフォントを使用する";
+		"Remember last played movie and position on quit" = "終了時に使用していたファイルと再生していた場所を記憶する";
+	"Video settings:" = "ビデオ設定：";
+		"Size:" = "サイズ：";
+			"normal" = "標準";
+			"half" = "半分";
+			"double" = "２倍";
+			"fit screen" = "画面に合わせる";
+			"fit width..." = "横幅に合わせる...";
+		"Aspect ratio:" = "アスペクト比：";
+		"Play in fullscreen by default" = "常にフルスクリーン再生する";
+		"Drop frames on slower machines" = "遅いマシンで再生するためにフレームを間引きする";
+	"Subtitles settings:" = "字幕設定：";
+		"Default encoding:" = "標準のエンコード形式：";
+		"Size:" = "サイズ：";
+			"small" = "小さい";
+			"normal" = "標準";
+			"larger" = "より大きい";
+			"large" = "大きい";
+	"Miscellaneous settings:" = "その他の設定：";
+		"Use cache (slow media)" = "キャッシュを使用（遅いメディア）";
+		"Additional parameters: (edit only if you know what you are doing)" = "追加設定項目：（意味が分かる人のみ編集して下さい）";
+
+/* Info panel */
+"Movie Info" = "ファイルの情報";
+	"Title:" = "タイトル：";
+	/* Settings tab */
+	"Settings" = "設定";
+		"Force rebuilding index (allow seeking in broken files)" = "強制的にインデックスを再構築（破損ファイルを再生可能）";
+		"Subtitles file:" = "字幕ファイル：";
+		"Subtitles encoding:" = "字幕の形式：";
+		"Audio file:" = "オーディオファイル：";
+		"Remove" = "取り除く";
+		"Choose..." = "選択...";
+	/* Info tab*/
+	"Info" = "情報";
+		"Movie file:" = "場所：";
+		"File format:" = "ファイル形式：";
+		"Video format:" = "ビデオ：";
+		"Audio format:" = "オーディオ：";
+		"Length:" = "継続時間：";
+	
+/* Statistics Window */
+"Movie Statistics" = "ムービーの統計";
+	/* Titles */
+	"Player status:" = "Playerの状況：";
+	"CPU usage:" = "CPUの処理状況：";
+	"Cache usage:" = "キャッシュの処理状況：";
+	"AV sync difference:" = "映像と音声の同期のずれ：";
+	"Dropped frames:" = "ドロップフレーム：";
+	"Postprocessing:" = "後処理：";
+	/* Values */
+	"N/A" = "計測できません";
+	"Playing" = "再生中";
+	"Paused" = "一時停止";
+	"Indexing" = "インデックス";
+	"Opening" = "開いています";
+	"Buffering" = "バッファに格納中…";
+	
+/* Open Location panel */
+"Open Location" = "URLを開く";
+	"URL:" = "URL:";
+	
+/* Loading Files panel */
+"Loadig Files" = "ファイルを開いています";
+
+/* Note, Caution and Alert Dialogs */
+"Error" = "エラー";
+"Note" = "注意";
+"Caution" = "警告";
+"Application %@ could not be found." = "アプリケーション '%@' が見つかりません。";
+"File %@ could not be found." = "ファイル '%@' が見つかりません。";
+"Preferences could not be saved.¥nQuit anyway?" = "環境設定は保存されていません。終了しますか？"; 
+"Do you want to restart playback?" = "再生プログラムを今すぐ再起動しますか？";
+	"Some of the changes requires player to restart playback that might take a while." = "変更された設定を適用させるには再生プログラムを再起動する必要があります。";
+	"Later" = "あとで行う";
+"The URL is not in correct format or cannot be handled by this application." = "URLのフォーマットが間違っているか対応していない形式であるため、開けません。";

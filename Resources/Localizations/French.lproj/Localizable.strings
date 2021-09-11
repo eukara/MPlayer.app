@@ -1,0 +1,155 @@
+/* Localizable strings for MPlayer OS X */
+
+/* french version by taz@macbidouille.com */
+
+/* Menu Bar */
+/* Application menu */
+"About MPlayer OS X" = "À propos de MPlayer OS X";
+"Preferences..." = "Préférences...";
+"Services" = "Services";
+"Hide MPlayer OS X" = "Masquer MPlayer OS X";
+"Hide Others" = "Masquer les autres";
+"Show All" = "Tout afficher";
+"Quit MPlayer OS X" = "Quitter MPlayer OS X";
+
+/* File menu */
+"File" = "Fichier";
+	"Open..." = "Ouvrir...";
+	"Open Location..." = "Ouvrir une URL...";
+	"Add to Playlist..." = "Ajouter à la liste de lecture...";
+
+/* Edit menu */
+"Edit" = "Édition";
+	"Undo" = "Annuler";
+	"Redo" = "Rétablir";
+	"Cut" = "Couper";
+	"Copy" = "Copier";
+	"Paste" = "Coller";
+	"Clear" = "Supprimer";
+	"Select All" = "Tout sélectionner";
+
+/* Control menu */
+"Controls" = "Contrôles";
+	"Play" = "Lecture";
+		"Pause" = "Pause";
+	"Stop" = "Arrêt";
+	"Seek Back" = "Retour rapide";
+	"Seek Forward" = "Avance rapide";
+	"Full Screen" = "Plein écran";
+	"Statistics..." = "Statistiques...";
+	"Info..." = "Informations...";
+
+/* Window menu */
+"Window" = "Fenêtre";
+	"Minimize" = "Masquer la fenêtre";
+	"Bring All to Front" = "Tout ramener au premier plan";
+
+/* Help menu */
+"Help" = "Aide";
+	"MPlayer OS X Help" = "Aide de MPlayer OS X";
+
+
+
+/* User interface */
+/* Universal strings */
+"default" = "défaut";
+"Cancel" = "Annuler";
+"OK" = "OK";
+
+/* Main window */
+	/* ToolTips */
+	"Play / pause" = "Lecture / pause";
+	"Seek back for 10 seconds" = "Retour rapide de 10 secondes";
+	"Seek forward for 10 seconds" = "Avance rapide de 10 secondes";
+	"Stop playing movie" = "Arrêter la lecture";
+	"Set audio volume" = "Modifier le niveau sonore";
+	"Open info panel for selected item" = "Afficher les informations pour l'élément sélectionné";
+	"Play mode: Single" = "Mode de lecture: normal";
+	"Play mode: Continous" = "Mode de lecture: continu";
+	"Play mode: Repeating" = "Mode de lecture: répétition";
+	/* Playlist table column headers */
+	"Movie" = "Séquence";
+	"Time" = "Temps";
+
+/* Preferences panel */
+"Preferences" = "Préférences";
+	"General settings:" = "Réglages principaux:";
+		"Small font in playlist" = "Petite police dans la liste de lecture";
+		"Remember last played movie and position on quit" = "Se souvenir de la séquence et de la position à la fermeture";
+	"Video settings:" = "Réglages vidéos:";
+		"Size:" = "Taille:";
+			"normal" = "normal";
+			"half" = "moitié";
+			"double" = "double";
+			"fit screen" = "taille de l'écran";
+			"fit width..." = "définir largeur...";
+		"Aspect ratio:" = "Ratio:";
+		"Play in fullscreen by default" = "Lire en plein écran par défaut";
+		"Drop frames on slower machines" = "Omettre des images sur les machines lentes";
+	"Subtitles settings:" = "Réglages des sous-titres:";
+		"Default encoding:" = "Encodage par défaut:";
+		"Font:" = "Polices:";
+		"none" = "aucune";
+		"Size:" = "Taille:";
+			"small" = "petite";
+			"normal" = "normal";
+			"larger" = "grande";
+			"large" = "très grande";
+	"Miscellaneous settings:" = "Réglages divers:";
+		"Use cache (slow media)" = "Utiliser la cache";
+		"Additional parameters: (edit only if you know what you are doing)" = "Paramètres additionnel (seulement si vous savez ce que vous faites)";
+
+/* Info panel */
+"Movie Info" = "Information sur la séquence";
+	"Title:" = "Titre:";
+	/* Settings tab */
+	"Settings" = "Réglages";
+		"Force rebuilding index (allow seeking in broken files)" = "Recréer l'index (peut aider avec les fichiers abîmés)";
+		"Subtitles file:" = "Sous-titres:";
+		"Subtitles encoding:" = "Encodages des sous-titres:";
+		"Audio file:" = "Audio:";
+		"Remove" = "Supprimer";
+		"Choose..." = "Choisir...";
+	/* Info tab*/
+	"Info" = "Informations";
+		"Movie file:" = "Séquence:";
+		"File format:" = "Format fichier:";
+		"Video format:" = "Format vidéo:";
+		"Audio format:" = "Format audio:";
+		"Length:" = "Durée:";
+	
+/* Statistics Window */
+"Movie Statistics" = "Statistiques";
+	/* Titles */
+	"Player status:" = "Status du lecteur:";
+	"CPU usage:" = "Usage CPU:";
+	"Cache usage:" = "Usage de la cache:";
+	"AV sync difference:" = "Synchro. A/V:";
+	"Dropped frames:" = "Images omises:";
+	"Postprocessing:" = "Postprocessing:";
+	/* Values */
+	"N/A" = "N/A";
+	"Playing" = "En lecture";
+	"Paused" = "En pause";
+	"Indexing" = "En indexation";
+	"Opening" = "En ouverture";
+	"Buffering" = "Mise en cache";
+	
+/* Open Location panel */
+"Open Location" = "Ouvrir une URL";
+	"URL:" = "URL:";
+	
+/* Loading Files panel */
+"Loadig Files" = "Chargement des fichiers";
+
+/* Note, Caution and Alert Dialogs */
+"Error" = "Erreur";
+"Note" = "Note";
+"Caution" = "Attention";
+"Application %@ could not be found." = "L'application %@ est introuvable.";
+"File %@ could not be found." = "Le fichier %@ est introuvable.";
+"Preferences could not be saved.\nQuit anyway?" = "Les préférences ne peuvent être enregistrées.\nQuitter quand même ?"; 
+"Do you want to restart playback?" = "Voulez-vous relancer la lecture ?";
+	"Some of the changes requires player to restart playback that might take a while." = "Certains changements requièrent un redémarrage du lecteur.";
+	"Later" = "Plus tard";
+"The URL is not in correct format or cannot be handled by this application." = "L'URL n'est pas d'un format correct ou ne peut pas être ouverte.";

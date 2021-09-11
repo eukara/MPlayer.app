@@ -1,0 +1,164 @@
+{
+    "## Comment" = "Do NOT change this file, Gorm maintains it";
+    AppController = {
+	Actions = (
+	    "openFile:",
+	    "addToPlaylist:",
+	    "openLocation:",
+	    "applyLocation:",
+	    "cancelLocation:",
+	    "deleteFromPlaylist:"
+	);
+	Outlets = (
+	    playerController,
+	    playListController,
+	    locationPanel,
+	    locationBox
+	);
+	Super = NSObject;
+    };
+    FirstResponder = {
+	Actions = (
+	    "cancelPreflight:",
+	    "changePlayMode:",
+	    "deleteSelection:",
+	    "displayItemSettings:",
+	    "doubleClick:",
+	    "deleteFromPlaylist:",
+	    "orderFrontFontPanel:"
+	);
+	Super = NSObject;
+    };
+    PlayListCtrllr = {
+	Actions = (
+	    "displayItemSettings:",
+	    "changePlayMode:",
+	    "cancelPreflight:",
+	    "deleteSelection:",
+	    "doubleClick:"
+	);
+	Outlets = (
+	    appController,
+	    playerController,
+	    settingsController,
+	    playListTable,
+	    settingsButton,
+	    playModeButton,
+	    preflightPanel,
+	    filenameBox,
+	    progressBar
+	);
+	Super = NSObject;
+    };
+    PlayerCtrllr = {
+	Actions = (
+	    "changeVolume:",
+	    "playPause:",
+	    "seekBack:",
+	    "seekFwd:",
+	    "stop:",
+	    "switchFullscreen:",
+	    "displayStats:",
+	    "switchWindow:"
+	);
+	Outlets = (
+	    mainWindow,
+	    playButton,
+	    voulumeSlider,
+	    playListController,
+	    appController,
+	    settingsController,
+	    playMenuItem,
+	    stopMenuItem,
+	    seekBackMenuItem,
+	    seekFwdMenuItem,
+	    statusBox,
+	    titleBox,
+	    timeBox,
+	    progressBar,
+	    miniWindow,
+	    playButtonMini,
+	    volumeSilderMini,
+	    statusBoxMini,
+	    titleBoxMini,
+	    timeBoxMini,
+	    statsPanel,
+	    statsAVsyncBox,
+	    statsCacheUsageBox,
+	    statsCPUUsageBox,
+	    statsPostProcBox,
+	    statsDroppedBox,
+	    statsStatusBox,
+	    switchMini,
+	    switchWindow
+	);
+	Super = NSObject;
+    };
+    PlaylistController = {
+	Actions = (
+	);
+	Outlets = (
+	);
+	Super = NSTableView;
+    };
+    PreferencesController = {
+	Actions = (
+	    "displayPreferences:",
+	    "applyPrefs:",
+	    "cancelPrefs:",
+	    "prefsChanged:",
+	    "enableControls:",
+	    "cacheSizeChanged:",
+	    "stupid:"
+	);
+	Outlets = (
+	    appController,
+	    playListController,
+	    playerController,
+	    prefsPanel,
+	    smallTextButton,
+	    rememberButton,
+	    videoSizeMenu,
+	    videoWidthButton,
+	    videoAspectMenu,
+	    defaultFullscreenButton,
+	    dropFramesButton,
+	    subFontMenu,
+	    subEncodingMenu,
+	    subSizeMenu,
+	    enableCacheButton,
+	    cacheSizeSlider,
+	    cacheSizeBox,
+	    addParamsButton,
+	    addParamsBox
+	);
+	Super = NSObject;
+    };
+    SettingsController = {
+	Actions = (
+	    "applySettings:",
+	    "cancelSettings:",
+	    "chooseAudio:",
+	    "chooseSubtitles:",
+	    "removeAudio:",
+	    "removeSubtitles:"
+	);
+	Outlets = (
+	    appController,
+	    playerController,
+	    playListController,
+	    settingsPanel,
+	    audioBox,
+	    encodingMenu,
+	    rebuildIndexButton,
+	    subtitlesBox,
+	    titleBox,
+	    movieFileBox,
+	    fileFormatBox,
+	    videoFormatBox,
+	    audioFormatBox,
+	    lenghtBox
+	);
+	Super = NSObject;
+    };
+}

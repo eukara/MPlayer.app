@@ -1,0 +1,6 @@
+/* Localized versions of Info.plist keys */
+
+CFBundleName = "MPlayer OS X 2";
+CFBundleShortVersionString = "MPlayer OS X verze 2.0";
+CFBundleGetInfoString = "MPlayer OS X verze 2.0, Copyright 2002-2003 Jan Volf.";
+NSHumanReadableCopyright = "Copyright 2002-2003 Jan Volf, části GUI vytvořil a binárky zkompiloval Jan Devera.";

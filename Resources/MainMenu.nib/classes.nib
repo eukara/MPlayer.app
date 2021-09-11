@@ -1,0 +1,179 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                addToPlaylist = id; 
+                applyLocation = id; 
+                cancelLocation = id; 
+                openFile = id; 
+                openLocation = id; 
+            }; 
+            CLASS = AppController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                locationBox = id; 
+                locationPanel = id; 
+                playListController = id; 
+                playerController = id; 
+                theApp = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = EncPopUpButton; LANGUAGE = ObjC; SUPERCLASS = PrefsPopUpButton; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = MplayerInterface; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = MyController; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = MyTableView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {playListController = id; playerController = id; }; 
+            SUPERCLASS = NSTableView; 
+        }, 
+        {
+            ACTIONS = {
+                cancelPreflight = id; 
+                changePlayMode = id; 
+                displayItemSettings = id; 
+                doubleClick = id; 
+            }; 
+            CLASS = PlayListCtrllr; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                appController = id; 
+                filenameBox = id; 
+                playListTable = id; 
+                playModeButton = id; 
+                playerController = id; 
+                preflightPanel = id; 
+                progressBar = id; 
+                settingsButton = id; 
+                settingsController = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = PlayListData; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                changeVolume = id; 
+                displayStats = id; 
+                playPause = id; 
+                seekBack = id; 
+                seekFwd = id; 
+                stop = id; 
+                switchFullscreen = id; 
+            }; 
+            CLASS = PlayerCtrllr; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                appController = id; 
+                mainWindow = id; 
+                miniWindow = id; 
+                playButton = NSButton; 
+                playButtonMini = NSButton; 
+                playDockMenuItem = id; 
+                playListController = id; 
+                playMenuItem = id; 
+                prefsController = id; 
+                progressBar = id; 
+                seekBackMenuItem = id; 
+                seekFwdMenuItem = id; 
+                settingsController = id; 
+                statsAVsyncBox = id; 
+                statsCPUUsageBox = id; 
+                statsCacheUsageBox = id; 
+                statsDroppedBox = id; 
+                statsPanel = id; 
+                statsPostProcBox = id; 
+                statsStatusBox = id; 
+                statusBox = id; 
+                statusBoxMini = id; 
+                stopDockMenuItem = id; 
+                stopMenuItem = id; 
+                timeBox = id; 
+                timeBoxMini = id; 
+                titleBox = id; 
+                titleBoxMini = id; 
+                volumeSlider = NSSlider; 
+                volumeSliderMini = NSSlider; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {clear = id; }; 
+            CLASS = PlaylistTableView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {playListController = PlayListCtrllr; playerController = PlayerCtrllr; }; 
+            SUPERCLASS = NSTableView; 
+        }, 
+        {
+            ACTIONS = {
+                applyPrefs = id; 
+                cacheSizeChanged = id; 
+                cancelPrefs = id; 
+                displayPreferences = id; 
+                enableControls = id; 
+                prefsChanged = id; 
+            }; 
+            CLASS = PreferencesController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                addParamsBox = id; 
+                addParamsButton = id; 
+                appController = id; 
+                cacheSizeBox = id; 
+                cacheSizeSlider = id; 
+                defaultFullscreenButton = id; 
+                dropFramesButton = id; 
+                enableCacheButton = id; 
+                playListController = id; 
+                playerController = id; 
+                prefsPanel = NSPanel; 
+                rememberButton = id; 
+                smallTextButton = id; 
+                subEncodingMenu = id; 
+                subFontMenu = id; 
+                subSizeMenu = id; 
+                videoAspectMenu = id; 
+                videoSizeMenu = id; 
+                videoWidthButton = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = PrefsButton; LANGUAGE = ObjC; SUPERCLASS = NSButton; }, 
+        {CLASS = PrefsComboBox; LANGUAGE = ObjC; SUPERCLASS = NSComboBox; }, 
+        {CLASS = PrefsPopUpButton; LANGUAGE = ObjC; SUPERCLASS = NSPopUpButton; }, 
+        {CLASS = PrefsTextField; LANGUAGE = ObjC; SUPERCLASS = NSTextField; }, 
+        {CLASS = ScrubbingBar; LANGUAGE = ObjC; SUPERCLASS = NSProgressIndicator; }, 
+        {
+            ACTIONS = {
+                applySettings = id; 
+                cancelSettings = id; 
+                chooseAudio = id; 
+                chooseSubtitles = id; 
+                removeAudio = id; 
+                removeSubtitles = id; 
+            }; 
+            CLASS = SettingsController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                appController = id; 
+                audioBox = id; 
+                audioFormatBox = id; 
+                encodingMenu = id; 
+                fileFormatBox = id; 
+                lengthBox = id; 
+                movieFileBox = id; 
+                playListController = id; 
+                playerController = id; 
+                rebuildIndexButton = id; 
+                settingsPanel = id; 
+                subtitlesBox = id; 
+                titleBox = id; 
+                videoFormatBox = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = SizePopUpButton; LANGUAGE = ObjC; SUPERCLASS = PrefsPopUpButton; }
+    ); 
+    IBVersion = 1; 
+}
