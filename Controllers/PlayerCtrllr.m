@@ -216,14 +216,13 @@
 				mode:MIAbsoluteSeekingMode];
 	else
 		[myPlayer seek:0 mode:MIAbsoluteSeekingMode];
-	if (myPlayingItem)
-		[myPlayingItem removeObjectForKey:@"LastSeconds"];
 
 	// load info before playback only if it was not previously loaded
 	if ([myPlayingItem objectForKey:@"ID_FILENAME"])
 		loadInfo = NO;
 	else
 		loadInfo = YES;
+
 	[myPlayer loadInfoBeforePlayback:loadInfo];
 
 	// start playback
