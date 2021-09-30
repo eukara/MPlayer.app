@@ -51,7 +51,7 @@
 		[videoSizeMenu selectItemAtIndex:
 				[[thePrefs objectForKey:@"VideoFrameSize"] intValue]];
 	else
-		[videoSizeMenu selectItemWithTitle:NSLocalizedString(@"normal",nil)];
+		[videoSizeMenu selectItemWithTitle:NSLocalizedString(@"Normal",nil)];
 	
 	// video width
 	if ([thePrefs objectForKey:@"VideoFrameWidth"])
@@ -412,7 +412,7 @@
 {
 	// video width box
 	if ([[videoSizeMenu titleOfSelectedItem]
-			isEqualToString:NSLocalizedString(@"fit width...",nil)])
+			isEqualToString:NSLocalizedString(@"Fit width",nil)])
 		[videoWidthButton setEnabled:YES];
 	else
 		[videoWidthButton setEnabled:NO];
