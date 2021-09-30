@@ -6,11 +6,12 @@
     NSIcon="MPlayerIcon.tiff";	
     ApplicationURL = "none";
     Authors = (
-		"Marco Hladik",
+		"Marco \"eukara\" Hladik",
 		"plop"
     );
     Copyright = "Copyright \U00a9 2003-2019";
     CopyrightDescription = "Released under the GNU GPL2.";
+    CFBundleIdentifier = "org.eukara.MPlayer";
     FullVersionID = "0.5";
     NSRole = "Viewer";
     NSTypes = (

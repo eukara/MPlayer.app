@@ -103,6 +103,7 @@
 - (IBAction)stop:(id)sender;
 - (IBAction)switchFullscreen:(id)sender;
 - (IBAction)displayStats:(id)sender;
+- (IBAction)switchWindow:(id)sender;
 
 // notification observers
 - (void) appFinishedLaunching;

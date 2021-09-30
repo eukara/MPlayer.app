@@ -424,12 +424,7 @@
     NSLog(@"accepted");
 	// check if one of allowed types is avialable in pasteboard
     availableType=[myPasteboard availableTypeFromArray:typeArray];
-	// get list of filenames dropped on table
-    NSData* pbData = [myPasteboard dataForType: NSFilenamesPboardType];
-    if (pbData)
-      {
-	propertyList = [NSUnarchiver unarchiveObjectWithData: pbData];
-      }
+
     	// reset selection
 	[tv deselectAll:nil];
 	
@@ -487,6 +482,7 @@
 				insertList = movieList;
 			else
 				insertList = audioList;
+
 			// if there are more items than 3 then display progress for it
 			if ([insertList count] > 3) {
 				[progressBar setMaxValue:[insertList count]];
@@ -495,6 +491,7 @@
 				progressSession = [NSApp
 						beginModalSessionForWindow:preflightPanel];
 			}
+
 			// add objects to the playlist
 			for (i=0;i<[insertList count];i++) {
 				NSMutableDictionary *myItem = [NSMutableDictionary dictionary];

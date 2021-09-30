@@ -686,6 +686,17 @@
 			name: NSWindowWillCloseNotification
 			object:statsPanel];
 }
+/************************************************************************************/
+- (IBAction)switchWindow:(id)sender
+{
+	if ([miniWindow isVisible]) {
+		[mainWindow makeKeyAndOrderFront:self];
+		[miniWindow orderOut:self];
+	} else {
+		[miniWindow makeKeyAndOrderFront:self];
+		[mainWindow orderOut:self];
+	}
+}
 /************************************************************************************
  NOTIFICATION OBSERVERS
  ************************************************************************************/
