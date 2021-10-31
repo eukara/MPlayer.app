@@ -2,17 +2,17 @@
     ApplicationDescription = "GNUstep Video Player";
     ApplicationIcon = MPlayer;
     ApplicationName = MPlayer;
-    ApplicationRelease = "0.5";
+    ApplicationRelease = "0.6";
     NSIcon="MPlayerIcon.tiff";	
     ApplicationURL = "none";
     Authors = (
 		"Marco \"eukara\" Hladik",
 		"plop"
     );
-    Copyright = "Copyright \U00a9 2003-2019";
+    Copyright = "Copyright \U00a9 2003-2021";
     CopyrightDescription = "Released under the GNU GPL2.";
     CFBundleIdentifier = "org.eukara.MPlayer";
-    FullVersionID = "0.5";
+    FullVersionID = "0.6";
     NSRole = "Viewer";
     NSTypes = (
     	{

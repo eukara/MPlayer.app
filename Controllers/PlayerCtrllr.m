@@ -683,9 +683,18 @@
 - (IBAction)switchWindow:(id)sender
 {
 	if ([miniWindow isVisible]) {
+		NSRect wframe = [miniWindow frame];
+		NSPoint pos = wframe.origin;
+		[mainWindow setFrameOrigin: pos];
+
 		[mainWindow makeKeyAndOrderFront:self];
 		[miniWindow orderOut:self];
 	} else {
+		NSRect wframe = [mainWindow frame];
+		NSPoint pos = wframe.origin;
+		[miniWindow setFrameOrigin: pos];
+
+		/* show! */
 		[miniWindow makeKeyAndOrderFront:self];
 		[mainWindow orderOut:self];
 	}

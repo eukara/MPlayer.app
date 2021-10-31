@@ -15,8 +15,8 @@
 
 #import "PreferencesController.h"
 
-#define kDefaultTextSize		13
-#define kSmallerTextSize		11
+#define kDefaultTextSize		12
+#define kSmallerTextSize		10
 
 @interface PlayListCtrllr : NSObject
 {
