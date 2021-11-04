@@ -10,7 +10,7 @@ MPlayer_OBJC_FILES = main.m\
 LocalizedInterface.m\
 
 MPlayer_RESOURCE_FILES = ./Resources/MainMenu.gorm \
-./Resources/Graphics/*
+./Resources/Images/*
 
 
 ADDITIONAL_INCLUDE_DIRS += -IClasses/ -IControllers/
